@@ -1,0 +1,20 @@
+{
+    "name": "push-notification-micro",
+    "version": "1.0.0",
+    "description": "Push Notification Micro. Shared resource for sending push notifications to all my mobile apps.",
+    "author": "Joshua Kaluba",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joshuakaluba/PushNotificationMicroService"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.16.3",
+        "expo-server-sdk": "3.4.0"
+    }
+}
